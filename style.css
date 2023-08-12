@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: grey;
+}
+
+.pimg1 {
+  background-image: url(img/giza.jpg);
+  min-height: 100%;
+
+}
+
+.pimg2 {
+  background-image: url(img/wall.jpg);
+  min-height: 600px;
+
+}
+
+.pimg3 {
+  background-image: url(img/petra.jpg);
+ min-height: 600px;
+
+
+
+}
+.pimg4 {
+  background-image: url(img/Colosseum.jpg);
+  min-height: 600px;
+
+
+}
+.pimg5 {
+  background-image: url(img/chizen.jpg);
+  min-height: 600px;
+
+
+}
+.pimg6 {
+  background-image: url(img/macchu.jpg);
+  min-height: 600px;
+
+
+}
+.pimg7 {
+  background-image: url(img/Taj.jpg);
+  min-height: 600px;
+
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 2px solid grey;
+  border-radius: 10px;
+
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: centre;
+  color: white;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+}
+
+.textBg {
+  color: ;
+  text-align: center;
+  
+
+}
+.section{
+  padding: 50px 80px;
+  text-align:justify;
+  border-radius: 50px;
+  background-color: transparent;
+
+
+}
+.section-1{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+ 
+}
+.section-2{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+
+}
+.section-3{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+}
+.section-4{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+}
+.section-5{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+}
+.section-6{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+}
+.section-7{
+  background: rgba(255, 231, 155, 0.2) ;
+  color: #40128B;
+}
+
+.ticket{
+  margin-left: 600px;
+  border: 2px solid rgba(255, 231, 155, 0.2);
+  background-color: ;
+}
