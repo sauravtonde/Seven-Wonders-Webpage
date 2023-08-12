@@ -83,7 +83,7 @@ body {
 }
 
 .textBg {
-  color: ;
+  color:white ;
   text-align: center;
   
 
@@ -127,8 +127,28 @@ body {
   color: #40128B;
 }
 
-.ticket{
+/* .ticket{
   margin-left: 600px;
   border: 2px solid rgba(255, 231, 155, 0.2);
-  background-color: ;
+  background-color: 
+} */
+@media (max-width: 500px){
+
+  body{
+    font-size:0.7rem ;
+    
+  }
+  .section{
+    padding: 20px 60px;
+   
+  
+  
+  }
+  .textBg {
+    color: white;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 }
